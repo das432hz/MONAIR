@@ -1,0 +1,7 @@
+{"time":"2025-02-20T16:00:41.185784438+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/mnt/c/Users/santi/MONAIR/MONAIR/wandb/run-20250220_160040-vjb5of6b/logs/debug-core.log"}
+{"time":"2025-02-20T16:00:42.653381263+01:00","level":"INFO","msg":"created new stream","id":"vjb5of6b"}
+{"time":"2025-02-20T16:00:42.653991051+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vjb5of6b"}
+{"time":"2025-02-20T16:00:42.658530306+01:00","level":"INFO","msg":"handler: started","stream_id":"vjb5of6b"}
+{"time":"2025-02-20T16:00:42.658599928+01:00","level":"INFO","msg":"stream: started","id":"vjb5of6b"}
+{"time":"2025-02-20T16:00:42.658648321+01:00","level":"INFO","msg":"sender: started","stream_id":"vjb5of6b"}
+{"time":"2025-02-20T16:00:43.184887299+01:00","level":"INFO","msg":"Starting system monitor"}

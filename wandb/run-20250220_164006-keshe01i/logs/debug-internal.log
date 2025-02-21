@@ -1,0 +1,7 @@
+{"time":"2025-02-20T16:40:06.959532934+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/mnt/c/Users/santi/MONAIR/MONAIR/wandb/run-20250220_164006-keshe01i/logs/debug-core.log"}
+{"time":"2025-02-20T16:40:07.397629026+01:00","level":"INFO","msg":"created new stream","id":"keshe01i"}
+{"time":"2025-02-20T16:40:07.398065686+01:00","level":"INFO","msg":"stream: started","id":"keshe01i"}
+{"time":"2025-02-20T16:40:07.398168127+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"keshe01i"}
+{"time":"2025-02-20T16:40:07.398207682+01:00","level":"INFO","msg":"handler: started","stream_id":"keshe01i"}
+{"time":"2025-02-20T16:40:07.399072059+01:00","level":"INFO","msg":"sender: started","stream_id":"keshe01i"}
+{"time":"2025-02-20T16:40:07.768458517+01:00","level":"INFO","msg":"Starting system monitor"}

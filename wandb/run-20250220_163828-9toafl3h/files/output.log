@@ -1,0 +1,6 @@
+Using GPU: PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+Esto es shape: (128, 128)
+llego
+<KerasTensor shape=(None, 128, 128, 1), dtype=float32, sparse=False, name=keras_tensor>
+llego_1
+entro

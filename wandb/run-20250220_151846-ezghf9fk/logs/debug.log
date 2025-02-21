@@ -1,0 +1,98 @@
+2025-02-20 15:18:46,648 INFO    MainThread:1680 [wandb_setup.py:_flush():68] Current SDK version is 0.19.6
+2025-02-20 15:18:46,649 INFO    MainThread:1680 [wandb_setup.py:_flush():68] Configure stats pid to 1680
+2025-02-20 15:18:46,649 INFO    MainThread:1680 [wandb_setup.py:_flush():68] Loading settings from /home/das432hz/.config/wandb/settings
+2025-02-20 15:18:46,649 INFO    MainThread:1680 [wandb_setup.py:_flush():68] Loading settings from /mnt/c/Users/santi/MONAIR/MONAIR/wandb/settings
+2025-02-20 15:18:46,649 INFO    MainThread:1680 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-20 15:18:46,650 INFO    MainThread:1680 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /mnt/c/Users/santi/MONAIR/MONAIR/wandb/run-20250220_151846-ezghf9fk/logs/debug.log
+2025-02-20 15:18:46,650 INFO    MainThread:1680 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /mnt/c/Users/santi/MONAIR/MONAIR/wandb/run-20250220_151846-ezghf9fk/logs/debug-internal.log
+2025-02-20 15:18:46,650 INFO    MainThread:1680 [wandb_init.py:init():756] calling init triggers
+2025-02-20 15:18:46,651 INFO    MainThread:1680 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'architecture': 'Simple-UNET', 'dataset': 'MATLAB', 'epochs': 10, '_wandb': {}}
+2025-02-20 15:18:46,651 INFO    MainThread:1680 [wandb_init.py:init():789] starting backend
+2025-02-20 15:18:46,874 INFO    MainThread:1680 [wandb_init.py:init():793] sending inform_init request
+2025-02-20 15:18:46,883 INFO    MainThread:1680 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-02-20 15:18:46,884 INFO    MainThread:1680 [wandb_init.py:init():808] backend started and connected
+2025-02-20 15:18:46,889 INFO    MainThread:1680 [wandb_init.py:init():901] updated telemetry
+2025-02-20 15:18:46,985 INFO    MainThread:1680 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-20 15:18:57,858 INFO    Thread-1 (wrapped_target):1680 [retry.py:__call__():175] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f736c46e960>: Failed to resolve 'api.wandb.ai' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f736c46e960>: Failed to resolve 'api.wandb.ai' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/wandb/sdk/lib/retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/wandb/sdk/internal/internal_api.py", line 396, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f736c46e960>: Failed to resolve 'api.wandb.ai' ([Errno -3] Temporary failure in name resolution)"))
+2025-02-20 15:19:28,013 INFO    MainThread:1680 [wandb_init.py:init():994] starting run threads in backend
+2025-02-20 15:19:29,216 INFO    MainThread:1680 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-20 15:19:29,223 INFO    MainThread:1680 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-20 15:19:29,228 INFO    MainThread:1680 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-20 15:19:29,229 INFO    MainThread:1680 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-20 15:19:29,271 INFO    MainThread:1680 [wandb_init.py:init():1036] run started, returning control to user process

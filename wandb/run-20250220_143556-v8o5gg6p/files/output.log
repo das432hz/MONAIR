@@ -1,0 +1,9 @@
+Esto es shape: (128, 128)
+Traceback (most recent call last):
+  File "/mnt/c/Users/santi/MONAIR/MONAIR/train.py", line 39, in <module>
+    model=build_unet(input_shape)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/santi/MONAIR/MONAIR/model_functions.py", line 29, in build_unet
+    inputs=input(input_shape)
+           ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

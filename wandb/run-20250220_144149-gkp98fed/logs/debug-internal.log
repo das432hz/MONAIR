@@ -1,0 +1,7 @@
+{"time":"2025-02-20T14:41:49.28747983+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/mnt/c/Users/santi/MONAIR/MONAIR/wandb/run-20250220_144149-gkp98fed/logs/debug-core.log"}
+{"time":"2025-02-20T14:41:49.538272803+01:00","level":"INFO","msg":"created new stream","id":"gkp98fed"}
+{"time":"2025-02-20T14:41:49.539852068+01:00","level":"INFO","msg":"stream: started","id":"gkp98fed"}
+{"time":"2025-02-20T14:41:49.540626529+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gkp98fed"}
+{"time":"2025-02-20T14:41:49.540914094+01:00","level":"INFO","msg":"handler: started","stream_id":"gkp98fed"}
+{"time":"2025-02-20T14:41:49.540761404+01:00","level":"INFO","msg":"sender: started","stream_id":"gkp98fed"}
+{"time":"2025-02-20T14:41:49.875681758+01:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,6 @@
+Using GPU: PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+Traceback (most recent call last):
+  File "/mnt/c/Users/santi/MONAIR/MONAIR/train.py", line 45, in <module>
+    model.sumary()
+    ^^^^^^^^^^^^
+AttributeError: 'Sequential' object has no attribute 'sumary'. Did you mean: 'summary'?

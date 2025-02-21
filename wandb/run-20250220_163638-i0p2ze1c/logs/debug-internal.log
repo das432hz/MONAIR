@@ -1,0 +1,8 @@
+{"time":"2025-02-20T16:36:38.880824968+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/mnt/c/Users/santi/MONAIR/MONAIR/wandb/run-20250220_163638-i0p2ze1c/logs/debug-core.log"}
+{"time":"2025-02-20T16:36:39.312780226+01:00","level":"INFO","msg":"created new stream","id":"i0p2ze1c"}
+{"time":"2025-02-20T16:36:39.313094985+01:00","level":"INFO","msg":"stream: started","id":"i0p2ze1c"}
+{"time":"2025-02-20T16:36:39.313110343+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"i0p2ze1c"}
+{"time":"2025-02-20T16:36:39.313145791+01:00","level":"INFO","msg":"handler: started","stream_id":"i0p2ze1c"}
+{"time":"2025-02-20T16:36:39.314149895+01:00","level":"INFO","msg":"sender: started","stream_id":"i0p2ze1c"}
+{"time":"2025-02-20T16:36:39.751395486+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-21T10:11:39.711545027+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/rasplansa-supsi/first_training/i0p2ze1c/file_stream\": dial tcp: lookup api.wandb.ai on 10.255.255.254:53: read udp 10.255.255.254:42133->10.255.255.254:53: i/o timeout"}

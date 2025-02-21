@@ -1,0 +1,7 @@
+Using GPU: PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+Esto es shape: (128, 128)
+Traceback (most recent call last):
+  File "/mnt/c/Users/santi/MONAIR/MONAIR/train.py", line 51, in <module>
+    width=x.shape[2]
+          ~~~~~~~^^^
+IndexError: tuple index out of range

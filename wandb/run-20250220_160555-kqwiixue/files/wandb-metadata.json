@@ -1,0 +1,41 @@
+{
+  "os":  "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.0",
+  "startedAt":  "2025-02-20T15:05:56.274355Z",
+  "program":  "/mnt/c/Users/santi/MONAIR/MONAIR/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "git@github.com:das432hz/MONAIR.git",
+    "commit":  "480012b1cd1aa14f94b4ecf4418b3ee0de71ba7e"
+  },
+  "email":  "rasplansa@gmail.com",
+  "root":  "/mnt/c/Users/santi/MONAIR/MONAIR",
+  "host":  "das932hz",
+  "executable":  "/home/das432hz/miniconda3/envs/MONAIR/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce GTX 1650",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1081101176832",
+      "used":  "52257939456"
+    }
+  },
+  "memory":  {
+    "total":  "3827224576"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1650",
+      "memoryTotal":  "4294967296",
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

@@ -1,0 +1,21 @@
+Esto es shape: (128, 128)
+Traceback (most recent call last):
+  File "/mnt/c/Users/santi/MONAIR/MONAIR/train.py", line 40, in <module>
+    data = scipy.io.loadmat("{}X_{}.mat".format(path, elementos))
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/santi/MONAIR/MONAIR/model_functions.py", line 30, in build_unet
+    s1,p1 =encoder_block(inputs,64)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/santi/MONAIR/MONAIR/model_functions.py", line 18, in encoder_block
+    x=conv_block(input,num_filters)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/santi/MONAIR/MONAIR/model_functions.py", line 7, in conv_block
+    x=Conv2D(num_filters,3,padding="same")(input)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/das432hz/miniconda3/envs/MONAIR/lib/python3.12/site-packages/keras/src/layers/layer.py", line 811, in __call__
+    raise ValueError(
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument:
+
+                                                                                                                                            (of type <class 'str'>)

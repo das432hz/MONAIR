@@ -1,0 +1,2 @@
+Using GPU: PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+Running on GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]

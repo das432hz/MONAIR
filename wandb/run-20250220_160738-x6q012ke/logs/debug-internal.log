@@ -1,0 +1,15 @@
+{"time":"2025-02-20T16:07:38.598621279+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/mnt/c/Users/santi/MONAIR/MONAIR/wandb/run-20250220_160738-x6q012ke/logs/debug-core.log"}
+{"time":"2025-02-20T16:07:39.322119175+01:00","level":"INFO","msg":"created new stream","id":"x6q012ke"}
+{"time":"2025-02-20T16:07:39.322471314+01:00","level":"INFO","msg":"stream: started","id":"x6q012ke"}
+{"time":"2025-02-20T16:07:39.322512163+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"x6q012ke"}
+{"time":"2025-02-20T16:07:39.323318414+01:00","level":"INFO","msg":"sender: started","stream_id":"x6q012ke"}
+{"time":"2025-02-20T16:07:39.322620229+01:00","level":"INFO","msg":"handler: started","stream_id":"x6q012ke"}
+{"time":"2025-02-20T16:07:39.739338928+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-20T16:07:41.605734922+01:00","level":"INFO","msg":"stream: closing","id":"x6q012ke"}
+{"time":"2025-02-20T16:07:41.606794083+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-20T16:07:41.608022036+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-20T16:07:42.259491085+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-20T16:07:42.469553263+01:00","level":"INFO","msg":"handler: closed","stream_id":"x6q012ke"}
+{"time":"2025-02-20T16:07:42.469579083+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"x6q012ke"}
+{"time":"2025-02-20T16:07:42.469703344+01:00","level":"INFO","msg":"sender: closed","stream_id":"x6q012ke"}
+{"time":"2025-02-20T16:07:42.470820941+01:00","level":"INFO","msg":"stream: closed","id":"x6q012ke"}

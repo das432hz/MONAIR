@@ -16,20 +16,20 @@ def conv_block(input,num_filters):
 
 def encoder_block(input,num_filters):
     x=conv_block(input,num_filters)
-    p=MaxPool2D((2,2))(x)  #Reucing the size in the middle but aumenting the feature space 
+    p=MaxPooling2D((2,2))(x)  #Reucing the size in the middle but aumenting the feature space 
     return x,p
 
 def decoder_block(input,skip_features,num_filters):
-    x=Conv2DTrasnspose(num_filters, (2,2),strides=2,padding="same")(input) #Here they're doing upsampling 
+    x=Conv2DTranspose(num_filters, (2,2),strides=2,padding="same")(input) #Here they're doing upsampling 
     x=Concatenate()([x,skip_features])
-    x=conv_blocks(x,num_filters)
+    x=conv_block(x,num_filters)
     return x 
 
 def build_unet(input_shape): 
-    inputs=input(input_shape)
+    inputs=Input(input_shape)
     s1,p1 =encoder_block(inputs,64)
-    s2,p2=encoder_block(s1,128)
-    s3,p3=encoder_block(s2,256)
+    s2,p2=encoder_block(p1,128)
+    s3,p3=encoder_block(p2,256)
     s4,p4=encoder_block(p3,512)
 
     b1=conv_block(p4,1024)
